@@ -1,7 +1,7 @@
 # Let's Test
 
 
-## A place where you can test your skill.
+## A place where you can test your learning.
 
 
 ### What we have used here?
