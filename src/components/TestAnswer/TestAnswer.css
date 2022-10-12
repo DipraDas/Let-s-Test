@@ -1,0 +1,22 @@
+.qquiz {
+    margin-top: 40px;
+    background-color: rgb(243, 243, 243);
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+
+.quizOption h6 {
+    background-color: rgb(220, 220, 220);
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.qquiz p{
+    background-color: rgb(153, 235, 255);
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 0;
+}
