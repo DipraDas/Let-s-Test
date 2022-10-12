@@ -6,7 +6,6 @@ import './Quiz.css';
 const Quiz = () => {
     const quizs = useLoaderData();
     const x = quizs.data.questions;
-    // const options = quizs.data.questions[0].options;
     return (
         <div className='container'>
             <div className="quizes">
