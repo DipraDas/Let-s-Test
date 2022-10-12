@@ -9,7 +9,7 @@ const Home = () => {
     const actualTopics = topics.data;
     return (
         <div className='container my-4'>
-            <h1>Home</h1>
+            <h1>Homee</h1>
             <Row xs={1} md={2} className="g-4 mt-3">
                 {
                     actualTopics.map(topic => <Topic
