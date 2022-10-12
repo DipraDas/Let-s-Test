@@ -3,11 +3,13 @@ import { useLoaderData } from 'react-router-dom';
 
 const Quiz = () => {
     const quizs = useLoaderData();
-    const quiz = quizs.data.name;
-    console.log(quiz);
+    const question = quizs.data.questions[0].question;
+    const options = quizs.data.questions[0].options;
     return (
         <div>
-            <h2>{quiz}</h2>
+            {
+                
+            }
         </div>
     );
 };
