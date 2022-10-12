@@ -6,6 +6,7 @@ import Blog from './components/Blog/Blog';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './layouts/Main';
 import Quiz from './components/Quiz/Quiz';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   const router = createBrowserRouter([
@@ -35,6 +36,10 @@ function App() {
           element: <Blog></Blog>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <NotFound></NotFound>
     }
   ])
   return (

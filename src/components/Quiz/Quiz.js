@@ -7,9 +7,7 @@ const Quiz = () => {
     const options = quizs.data.questions[0].options;
     return (
         <div>
-            {
-                
-            }
+            <h1>{question}</h1>
         </div>
     );
 };
