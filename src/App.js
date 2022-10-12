@@ -1,9 +1,10 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Main from './components/layouts/Main';
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Main from './layouts/Main';
 
 function App() {
   const router = createBrowserRouter([
@@ -12,8 +13,8 @@ function App() {
       element: <Main></Main>,
       children: [
         {
-          path: '/home',
-          loader: () => fetch('tshirts.json'),
+          path: '/',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Home></Home>
         },
         {
@@ -23,7 +24,7 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
-        },
+        }
       ]
     }
   ])

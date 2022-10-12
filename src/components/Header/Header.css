@@ -1,0 +1,13 @@
+.header a {
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.header a:hover {
+    color: #fff;
+}
+
+.brand-name {
+    margin-right: 60px !important;
+}
