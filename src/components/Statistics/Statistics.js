@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts';
 
+
 const Statistics = () => {
     const topics = useLoaderData();
     const actualTopics = topics.data;
