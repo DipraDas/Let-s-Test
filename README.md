@@ -31,4 +31,7 @@ We will increase our quiz topics and number of quiz soon.
 Here, we used React to build our site. For responsiveness we used React-Bootstrap. Using React-Router-Dom we have created 4 routes which are home, statistics, blog. And another one is for 404. In home page we are showing the topics. If you click any of the topic, it will redirect you to the quiz page that your interest topic and you can give your test. In Statistics page you can see a LineChart Graph where its showing the number of quizes on specific topic. In the blog page there are 3 basic questions.
 #
 
+## Live Link
+[https://gregarious-jelly-38b336.netlify.app/]
+
 ## Don't be late. Enjoy our site Now :)
