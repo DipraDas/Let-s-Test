@@ -19,5 +19,3 @@ const Topic = ({ topic }) => {
 };
 
 export default Topic;
-
-// topic
